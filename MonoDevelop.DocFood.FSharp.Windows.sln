@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3987A9FF-DCB9-438A-8D44-8607D175E557}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "MonoDevelop.DocFood.FSharp.windows", "MonoDevelop.DocFood.FSharp\MonoDevelop.DocFood.FSharp.windows.fsproj", "{88287638-CF19-44F4-88D6-2825501F717B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88287638-CF19-44F4-88D6-2825501F717B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88287638-CF19-44F4-88D6-2825501F717B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88287638-CF19-44F4-88D6-2825501F717B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88287638-CF19-44F4-88D6-2825501F717B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = MonoDevelop.DocFood.FSharp\MonoDevelop.DocFood.FSharp.windows.fsproj
+	EndGlobalSection
+EndGlobal
