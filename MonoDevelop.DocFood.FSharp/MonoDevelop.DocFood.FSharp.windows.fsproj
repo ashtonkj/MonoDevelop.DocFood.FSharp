@@ -55,10 +55,48 @@
     <Reference Include="Mono.Addins">
       <HintPath>..\lib\MonoDevelop\Mono.Addins.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.TextEditor">
+      <HintPath>..\..\..\..\Program Files %28x86%29\Xamarin Studio\bin\Mono.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoDevelop.Core">
+      <HintPath>..\..\..\..\Program Files %28x86%29\Xamarin Studio\bin\MonoDevelop.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoDevelop.Ide">
+      <HintPath>..\..\..\..\Program Files %28x86%29\Xamarin Studio\bin\MonoDevelop.Ide.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoDevelop.Debugger">
+      <HintPath>..\..\..\..\Program Files %28x86%29\Xamarin Studio\AddIns\MonoDevelop.Debugger\MonoDevelop.Debugger.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoDevelop.DesignerSupport">
+      <HintPath>..\..\..\..\Program Files %28x86%29\Xamarin Studio\AddIns\MonoDevelop.DesignerSupport\MonoDevelop.DesignerSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoDevelop.Refactoring">
+      <HintPath>..\..\..\..\Program Files %28x86%29\Xamarin Studio\AddIns\MonoDevelop.Refactoring\MonoDevelop.Refactoring.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+      <HintPath>..\..\..\..\Program Files %28x86%29\Xamarin Studio\bin\ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
+    <Reference Include="gtk-sharp">
+      <HintPath>..\..\..\..\Program Files %28x86%29\GtkSharp\2.12\lib\gtk-sharp-2.0\gtk-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cairo">
+      <HintPath>..\..\..\..\Program Files %28x86%29\GtkSharp\2.12\lib\Mono.Cairo\Mono.Cairo.dll</HintPath>
+    </Reference>
+    <Reference Include="pango-sharp">
+      <HintPath>..\..\..\..\Program Files %28x86%29\GtkSharp\2.12\lib\gtk-sharp-2.0\pango-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="gdk-sharp">
+      <HintPath>..\..\..\..\Program Files %28x86%29\GtkSharp\2.12\lib\gtk-sharp-2.0\gdk-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="glib-sharp">
+      <HintPath>..\..\..\..\Program Files %28x86%29\GtkSharp\2.12\lib\gtk-sharp-2.0\glib-sharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="AddinInfo.fs" />
+    <Compile Include="Commands.fs" />
+    <Compile Include="DocGenerator.fs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.1\Framework\v4.0\Microsoft.FSharp.Targets" />
 </Project>
